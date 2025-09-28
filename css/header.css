@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cr-p: rgb(18 19 61);
+    --cr-s: rgb(170 75 143);
+    --cr-b: rgb(255, 255, 255);
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: var(--cr-b);
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+
+.header-main {
+    height: 64px;
+    width: 1400px;
+    background-color: var(--cr-b);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    gap: 39px;
+}
+
+nav a {
+    color: var(--cr-p);
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+nav a:hover {
+    color: var(--cr-s);
+}
+
+.login-cta {
+    padding: 10px 17px;
+    background-color: var(--cr-s);
+    color: var(--cr-b);
+    font-size: 15px;
+    font-weight: 600px;
+    border: none;
+    border-radius: 5px;
+}
+
+.login-cta:hover {
+    background-color: var(--cr-p);
+    cursor: progress;
+}

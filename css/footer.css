@@ -1,0 +1,65 @@
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+    background-color: var(--cr-b);
+    color: var(--cr-p);
+}
+
+.footer-main {
+    width: 1400px;
+    display: grid;
+    grid-template-columns: 1.6fr 0.7fr 0.7fr 1.5fr;
+    column-gap: 30px;
+}
+
+.footer-main h2 {
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 21px;
+    color: var(--cr-s);
+}
+
+.footer-about h2 {
+    color: var(--cr-p);
+}
+
+.footer-about p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* .footer-about p, */
+.footer-icon a i,
+.contact a i {
+    color: var(--cr-s);
+}
+
+.footer-icon {
+    margin-top: 20px;
+    display: flex;
+    column-gap: 15px;
+    font-size: 21px;
+}
+
+
+.footer-main ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.footer-main ul li a {
+    color: var(--cr-p);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* used footer link to terget only links */
+.footer-links ul li a:hover,
+.footer-icon a i:hover {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    color: var(--cr-s);
+    font-weight: 500;
+}
