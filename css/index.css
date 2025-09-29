@@ -1,0 +1,97 @@
+.full-width-hero {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    z-index: 1;
+}
+
+.full-width-hero video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.full-width-hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(10, 57, 1, 0.3);
+    z-index: 2;
+}
+
+/* hero vontent out side div where applyed flex */
+.hero-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* hero contrnt div center */
+.hero-text-width {
+    max-width: 900px;
+    color: var(--cr-b);
+    text-align: center;
+    z-index: 2;
+
+}
+
+.hero-text-width h1 {
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 20px;
+
+}
+
+.hero-text-width p {
+    font-size: 24px;
+    margin-bottom: 25px;
+
+}
+
+.hero-text-width a button {
+    font-size: 18px;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 6px;
+    background-color: var(--cr-s);
+    color: var(--cr-b);
+
+}
+
+.hero-text-width a button:hover {
+    background-color: var(--cr-p);
+
+}
+
+/* Tution section */
+.tuition {
+    width: 1400px;
+    padding: 50px 0 30px 0;
+
+}
+
+.tuition-title {
+    text-align: center;
+}
+
+.tuition-title h2 {
+    font-size: 48px;
+    color: var(--cr-p);
+}
+
+.tuition-title p {
+    font-size: 20px;
+    color: rgba(10, 57, 1, 0.9);
+}
