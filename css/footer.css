@@ -4,19 +4,22 @@ footer {
     padding: 50px 15px;
     background-color: var(--cr-b);
     color: var(--cr-p);
-    border-top: 1px solid var(--cr-s);
+    border-top: 1px solid var(--cr-p);
 }
-
 
 .footer-main {
     width: 1400px;
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 30px;
 }
 
 footer .contact {
     justify-self: end;
+}
+
+.footer-links {
+    justify-self: center;
 }
 
 .footer-main h2 {
