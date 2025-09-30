@@ -75,27 +75,6 @@
 
 }
 
-/* Tution section */
-.tuition {
-    width: 1400px;
-    padding: 50px 0 30px 0;
-
-}
-
-.tuition-title {
-    text-align: center;
-}
-
-.tuition-title h2 {
-    font-size: 48px;
-    color: var(--cr-p);
-}
-
-.tuition-title p {
-    font-size: 20px;
-    color: rgba(10, 57, 1, 0.921);
-}
-
 /* tution card list */
 .tuition-card-list {
     margin-top: 60px;
@@ -225,4 +204,109 @@
     background-color: var(--cr-s);
     color: var(--cr-b);
     border-radius: 3px;
+}
+
+/* Explore Categories section */
+.categories-card-list {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 20px;
+}
+
+/* Start: categories each card */
+.categories-single-card {
+    border: 1px solid rgba(170, 75, 143, 0.363);
+    border-radius: 5px;
+    padding: 30px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.icon-box {
+    padding: 15px;
+    background-color: rgba(170, 75, 143, 0.19);
+    border: 1px solid rgba(170, 75, 143, 0.3);
+    border-radius: 5px;
+
+}
+
+.icon-box i {
+    color: var(--cr-s);
+    font-size: 18px;
+
+}
+
+.categories-single-card h3 {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--cr-s);
+}
+
+.newsletter {
+    background-color: var(--cr-s);
+    padding: 90px 15px;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.newsletter-card {
+    width: 900px;
+    background-color: var(--cr-b);
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.newsletter-card-content h3 {
+    font-size: 39px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: var(--cr-p);
+
+}
+
+.newsletter-card-content p {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: rgba(0, 0, 0, 0.677);
+}
+
+.newsletter-card-content form {
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter-card-content form input {
+    height: 50px;
+    font-size: 18px;
+
+}
+
+.newsletter-card-content form input[type="email"] {
+    width: 350px;
+    padding: 6px;
+    border: 2px solid var(--cr-s);
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.newsletter-card-content form input[type="email"]:focus {
+    border-color: var(--cr-p);
+    outline: none;
+}
+
+.newsletter-card-content form input[type="submit"] {
+    background-color: var(--cr-s);
+    border: none;
+    border-radius: 0 5px 5px 0;
+    padding: 0 15px;
+    outline: none;
+    color: var(--cr-b);
+    font-size: 14px;
+    font-weight: 600px;
 }
