@@ -42,14 +42,14 @@ a {
     text-align: center;
 }
 
-.main-section h2 {
+.main-section-title>h2 {
     font-size: 48px;
     color: var(--cr-p);
 }
 
-.main-section p {
+.main-section-title>p {
     font-size: 20px;
-    color: rgba(10, 57, 1, 0.921);
+    color: var(--cr-p);
 }
 
 header {
