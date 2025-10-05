@@ -1,0 +1,1448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuition - Find Your Class</title>
+    <link rel="icon" type="image/x-icon" href="images/image.ico">
+    <meta name="description"
+        content="Education Hub offers online tuition, test series, books, daily quizzes, weekly tests, job alerts, and courses to help students and aspirants achieve success.">
+    <meta name="keywords"
+        content="education website, online tuition, test series, daily quiz, weekly test, books, job alerts, online courses, exam preparation, study material">
+    <meta name="schema.org/author" content="Education Hub">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/tuition.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+
+<body>
+    <header>
+        <!-- header width 1400px align center -->
+        <div class="header-main">
+            <!-- Logo -->
+            <div>
+                <a href="/">
+                    <img src="images/logo.png" alt="Education - Online Learning and Courses" width="132px">
+                </a>
+            </div>
+            <!-- nav -->
+            <nav>
+                <a href="tuition.html">Tuition</a>
+                <a href="">Test Series</a>
+                <a href="">Books</a>
+                <a href="">Daily Quiz</a>
+                <a href="">Weekly Test</a>
+                <a href="">Job Alerts</a>
+                <a href="">Courses</a>
+            </nav>
+            <!-- login -->
+            <div>
+                <button class="login-cta">Login</button>
+
+            </div>
+        </div>
+    </header>
+    <!-- main -->
+    <main>
+        <!-- hreo search section -->
+        <section class="n-section">
+            <!-- center div  -->
+            <div class="hero-search">
+                <h1>Discover Quality Tuition Classes</h1>
+                <p>Find the perfect academic class for your board, standard, and subjects.</p>
+                <!-- searcjh box -->
+                <div class="saerch-input">
+                    <input type="seatch" name="search" id="search" placeholder="Search by class, board, or subject...">
+                    <button><i class="fa fa-filter" aria-hidden="true"></i>Filter</button>
+                </div>
+                <!-- search suggetions -->
+                <div class="search-suggetion">
+                    <p>Board Wise</p>
+                    <p>Class Wise</p>
+                    <p>Subjects</p>
+                </div>
+            </div>
+        </section>
+        <!-- listing of side bar and class -->
+        <section class="n-section">
+            <div class="main-listing-container">
+                <!-- sidebar -->
+                <div class="lising-sidebar">
+                    <!-- options list: BOARD select -->
+                    <div class="sidebar-radio-option">
+                        <h2 class="option-title">Board</h2>
+                        <div>
+                            <input type="radio" name="board" id="cbsc" value="cbsc">
+                            <label for="cbsc">CBSC</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="board" id="cisce" value="cisce">
+                            <label for="cisce">CISCE</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="board" id="wbbse" value="wbbse">
+                            <label for="wbbse">WBBSE</label>
+                        </div>
+                    </div>
+                    <!-- select subject -->
+                    <div class="subject-checkbox">
+                        <h2 class="option-title">Subjects</h2>
+                        <div class="checkbox-grid">
+                            <div>
+                                <input type="checkbox" name="subject" id="bengali" value="beagali">
+                                <label for="bengali">Bengali</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="subject" id="english" value="english">
+                                <label for="english">English</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="subject" id="history" value="history">
+                                <label for="history">History</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="subject" id="bengali" value="beagali">
+                                <label for="bengali">Bengali</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="subject" id="english" value="english">
+                                <label for="english">English</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="subject" id="history" value="history">
+                                <label for="history">History</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="subject" id="bengali" value="beagali">
+                                <label for="bengali">Bengali</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="subject" id="english" value="english">
+                                <label for="english">English</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="subject" id="history" value="history">
+                                <label for="history">History</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="subject" id="bengali" value="beagali">
+                                <label for="bengali">Bengali</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="subject" id="english" value="english">
+                                <label for="english">English</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="subject" id="history" value="history">
+                                <label for="history">History</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="subject" id="bengali" value="beagali">
+                                <label for="bengali">Bengali</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="subject" id="english" value="english">
+                                <label for="english">English</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="subject" id="history" value="history">
+                                <label for="history">History</label>
+                            </div>
+                        </div>
+                        <!-- price range -->
+                        <div class="price-option">
+                            <h2 class="option-title">Price</h2>
+                            <div>
+                                <output class="range-output" id="result">30</output>
+                                <input type="range" name="price" id="price" min="100" max="4999" step="50" value="500"
+                                    oninput="result.value = this.value">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- listing area -->
+                <div class="card-listing">
+                    <div class="card-grid-list">
+                        <!-- start: tution single card image  -->
+                        <div class="tuition-card">
+                            <!-- image: box amd image -->
+                            <div class="tuition-image-holder">
+                                <img src="images/tution-card-1.jpg" alt="">
+                                <!-- lable -->
+                                <div class="tution-card-lable">
+                                    <span>Live</span>
+                                </div>
+                            </div>
+                            <!-- details in card of the tution -->
+                            <div class="tuition-card-details">
+                                <h3>CBSE Class 10</h3>
+                                <h3>Mathematics</h3>
+                                <p><i class="fa fa-user" aria-hidden="true"></i>
+                                    Dr. Rajesh Kumar</p>
+                                <!-- rating and buy count -->
+                                <div class="tution-card-rating">
+                                    <ul>
+                                        <li><i class="fa fa-book" aria-hidden="true"></i> 120
+                                        </li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i>
+                                            5.0</li>
+                                    </ul>
+                                </div>
+
+                                <!-- price and action CTA -->
+                                <div class="tution-price-cta">
+                                    <p>₹7,999</p>
+                                    <a href="">
+                                        <button>Enroll</button>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- start: tution single card image  -->
+                        <div class="tuition-card">
+                            <!-- image: box amd image -->
+                            <div class="tuition-image-holder">
+                                <img src="images/tution-card-1.jpg" alt="">
+                                <!-- lable -->
+                                <div class="tution-card-lable">
+                                    <span>Live</span>
+                                </div>
+                            </div>
+                            <!-- details in card of the tution -->
+                            <div class="tuition-card-details">
+                                <h3>CBSE Class 10</h3>
+                                <h3>Mathematics</h3>
+                                <p><i class="fa fa-user" aria-hidden="true"></i>
+                                    Dr. Rajesh Kumar</p>
+                                <!-- rating and buy count -->
+                                <div class="tution-card-rating">
+                                    <ul>
+                                        <li><i class="fa fa-book" aria-hidden="true"></i> 120
+                                        </li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i>
+                                            5.0</li>
+                                    </ul>
+                                </div>
+
+                                <!-- price and action CTA -->
+                                <div class="tution-price-cta">
+                                    <p>₹7,999</p>
+                                    <a href="">
+                                        <button>Enroll</button>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- start: tution single card image  -->
+                        <div class="tuition-card">
+                            <!-- image: box amd image -->
+                            <div class="tuition-image-holder">
+                                <img src="images/tution-card-1.jpg" alt="">
+                                <!-- lable -->
+                                <div class="tution-card-lable">
+                                    <span>Live</span>
+                                </div>
+                            </div>
+                            <!-- details in card of the tution -->
+                            <div class="tuition-card-details">
+                                <h3>CBSE Class 10</h3>
+                                <h3>Mathematics</h3>
+                                <p><i class="fa fa-user" aria-hidden="true"></i>
+                                    Dr. Rajesh Kumar</p>
+                                <!-- rating and buy count -->
+                                <div class="tution-card-rating">
+                                    <ul>
+                                        <li><i class="fa fa-book" aria-hidden="true"></i> 120
+                                        </li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i>
+                                            5.0</li>
+                                    </ul>
+                                </div>
+
+                                <!-- price and action CTA -->
+                                <div class="tution-price-cta">
+                                    <p>₹7,999</p>
+                                    <a href="">
+                                        <button>Enroll</button>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- start: tution single card image  -->
+                        <div class="tuition-card">
+                            <!-- image: box amd image -->
+                            <div class="tuition-image-holder">
+                                <img src="images/tution-card-1.jpg" alt="">
+                                <!-- lable -->
+                                <div class="tution-card-lable">
+                                    <span>Live</span>
+                                </div>
+                            </div>
+                            <!-- details in card of the tution -->
+                            <div class="tuition-card-details">
+                                <h3>CBSE Class 10</h3>
+                                <h3>Mathematics</h3>
+                                <p><i class="fa fa-user" aria-hidden="true"></i>
+                                    Dr. Rajesh Kumar</p>
+                                <!-- rating and buy count -->
+                                <div class="tution-card-rating">
+                                    <ul>
+                                        <li><i class="fa fa-book" aria-hidden="true"></i> 120
+                                        </li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i>
+                                            5.0</li>
+                                    </ul>
+                                </div>
+
+                                <!-- price and action CTA -->
+                                <div class="tution-price-cta">
+                                    <p>₹7,999</p>
+                                    <a href="">
+                                        <button>Enroll</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- start: tution single card image  -->
+                        <div class="tuition-card">
+                            <!-- image: box amd image -->
+                            <div class="tuition-image-holder">
+                                <img src="images/tution-card-1.jpg" alt="">
+                                <!-- lable -->
+                                <div class="tution-card-lable">
+                                    <span>Live</span>
+                                </div>
+                            </div>
+                            <!-- details in card of the tution -->
+                            <div class="tuition-card-details">
+                                <h3>CBSE Class 10</h3>
+                                <h3>Mathematics</h3>
+                                <p><i class="fa fa-user" aria-hidden="true"></i>
+                                    Dr. Rajesh Kumar</p>
+                                <!-- rating and buy count -->
+                                <div class="tution-card-rating">
+                                    <ul>
+                                        <li><i class="fa fa-book" aria-hidden="true"></i> 120
+                                        </li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i>
+                                            5.0</li>
+                                    </ul>
+                                </div>
+
+                                <!-- price and action CTA -->
+                                <div class="tution-price-cta">
+                                    <p>₹7,999</p>
+                                    <a href="">
+                                        <button>Enroll</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- start: tution single card image  -->
+                        <div class="tuition-card">
+                            <!-- image: box amd image -->
+                            <div class="tuition-image-holder">
+                                <img src="images/tution-card-1.jpg" alt="">
+                                <!-- lable -->
+                                <div class="tution-card-lable">
+                                    <span>Live</span>
+                                </div>
+                            </div>
+                            <!-- details in card of the tution -->
+                            <div class="tuition-card-details">
+                                <h3>CBSE Class 10</h3>
+                                <h3>Mathematics</h3>
+                                <p><i class="fa fa-user" aria-hidden="true"></i>
+                                    Dr. Rajesh Kumar</p>
+                                <!-- rating and buy count -->
+                                <div class="tution-card-rating">
+                                    <ul>
+                                        <li><i class="fa fa-book" aria-hidden="true"></i> 120
+                                        </li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i>
+                                            5.0</li>
+                                    </ul>
+                                </div>
+
+                                <!-- price and action CTA -->
+                                <div class="tution-price-cta">
+                                    <p>₹7,999</p>
+                                    <a href="">
+                                        <button>Enroll</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- start: tution single card image  -->
+                        <div class="tuition-card">
+                            <!-- image: box amd image -->
+                            <div class="tuition-image-holder">
+                                <img src="images/tution-card-1.jpg" alt="">
+                                <!-- lable -->
+                                <div class="tution-card-lable">
+                                    <span>Live</span>
+                                </div>
+                            </div>
+                            <!-- details in card of the tution -->
+                            <div class="tuition-card-details">
+                                <h3>CBSE Class 10</h3>
+                                <h3>Mathematics</h3>
+                                <p><i class="fa fa-user" aria-hidden="true"></i>
+                                    Dr. Rajesh Kumar</p>
+                                <!-- rating and buy count -->
+                                <div class="tution-card-rating">
+                                    <ul>
+                                        <li><i class="fa fa-book" aria-hidden="true"></i> 120
+                                        </li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i>
+                                            5.0</li>
+                                    </ul>
+                                </div>
+
+                                <!-- price and action CTA -->
+                                <div class="tution-price-cta">
+                                    <p>₹7,999</p>
+                                    <a href="">
+                                        <button>Enroll</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- start: tution single card image  -->
+                        <div class="tuition-card">
+                            <!-- image: box amd image -->
+                            <div class="tuition-image-holder">
+                                <img src="images/tution-card-1.jpg" alt="">
+                                <!-- lable -->
+                                <div class="tution-card-lable">
+                                    <span>Live</span>
+                                </div>
+                            </div>
+                            <!-- details in card of the tution -->
+                            <div class="tuition-card-details">
+                                <h3>CBSE Class 10</h3>
+                                <h3>Mathematics</h3>
+                                <p><i class="fa fa-user" aria-hidden="true"></i>
+                                    Dr. Rajesh Kumar</p>
+                                <!-- rating and buy count -->
+                                <div class="tution-card-rating">
+                                    <ul>
+                                        <li><i class="fa fa-book" aria-hidden="true"></i> 120
+                                        </li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i>
+                                            5.0</li>
+                                    </ul>
+                                </div>
+
+                                <!-- price and action CTA -->
+                                <div class="tution-price-cta">
+                                    <p>₹7,999</p>
+                                    <a href="">
+                                        <button>Enroll</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- start: tution single card image  -->
+                        <div class="tuition-card">
+                            <!-- image: box amd image -->
+                            <div class="tuition-image-holder">
+                                <img src="images/tution-card-1.jpg" alt="">
+                                <!-- lable -->
+                                <div class="tution-card-lable">
+                                    <span>Live</span>
+                                </div>
+                            </div>
+                            <!-- details in card of the tution -->
+                            <div class="tuition-card-details">
+                                <h3>CBSE Class 10</h3>
+                                <h3>Mathematics</h3>
+                                <p><i class="fa fa-user" aria-hidden="true"></i>
+                                    Dr. Rajesh Kumar</p>
+                                <!-- rating and buy count -->
+                                <div class="tution-card-rating">
+                                    <ul>
+                                        <li><i class="fa fa-book" aria-hidden="true"></i> 120
+                                        </li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i>
+                                            5.0</li>
+                                    </ul>
+                                </div>
+                                <!-- price and action CTA -->
+                                <div class="tution-price-cta">
+                                    <p>₹7,999</p>
+                                    <a href="">
+                                        <button>Enroll</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- start: tution single card image  -->
+                        <div class="tuition-card">
+                            <!-- image: box amd image -->
+                            <div class="tuition-image-holder">
+                                <img src="images/tution-card-1.jpg" alt="">
+                                <!-- lable -->
+                                <div class="tution-card-lable">
+                                    <span>Live</span>
+                                </div>
+                            </div>
+                            <!-- details in card of the tution -->
+                            <div class="tuition-card-details">
+                                <h3>CBSE Class 10</h3>
+                                <h3>Mathematics</h3>
+                                <p><i class="fa fa-user" aria-hidden="true"></i>
+                                    Dr. Rajesh Kumar</p>
+                                <!-- rating and buy count -->
+                                <div class="tution-card-rating">
+                                    <ul>
+                                        <li><i class="fa fa-book" aria-hidden="true"></i> 120
+                                        </li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i>
+                                            5.0</li>
+                                    </ul>
+                                </div>
+                                <!-- price and action CTA -->
+                                <div class="tution-price-cta">
+                                    <p>₹7,999</p>
+                                    <a href="">
+                                        <button>Enroll</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- start: tution single card image  -->
+                        <div class="tuition-card">
+                            <!-- image: box amd image -->
+                            <div class="tuition-image-holder">
+                                <img src="images/tution-card-1.jpg" alt="">
+                                <!-- lable -->
+                                <div class="tution-card-lable">
+                                    <span>Live</span>
+                                </div>
+                            </div>
+                            <!-- details in card of the tution -->
+                            <div class="tuition-card-details">
+                                <h3>CBSE Class 10</h3>
+                                <h3>Mathematics</h3>
+                                <p><i class="fa fa-user" aria-hidden="true"></i>
+                                    Dr. Rajesh Kumar</p>
+                                <!-- rating and buy count -->
+                                <div class="tution-card-rating">
+                                    <ul>
+                                        <li><i class="fa fa-book" aria-hidden="true"></i> 120
+                                        </li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i>
+                                            5.0</li>
+                                    </ul>
+                                </div>
+                                <!-- price and action CTA -->
+                                <div class="tution-price-cta">
+                                    <p>₹7,999</p>
+                                    <a href="">
+                                        <button>Enroll</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- start: tution single card image  -->
+                        <div class="tuition-card">
+                            <!-- image: box amd image -->
+                            <div class="tuition-image-holder">
+                                <img src="images/tution-card-1.jpg" alt="">
+                                <!-- lable -->
+                                <div class="tution-card-lable">
+                                    <span>Live</span>
+                                </div>
+                            </div>
+                            <!-- details in card of the tution -->
+                            <div class="tuition-card-details">
+                                <h3>CBSE Class 10</h3>
+                                <h3>Mathematics</h3>
+                                <p><i class="fa fa-user" aria-hidden="true"></i>
+                                    Dr. Rajesh Kumar</p>
+                                <!-- rating and buy count -->
+                                <div class="tution-card-rating">
+                                    <ul>
+                                        <li><i class="fa fa-book" aria-hidden="true"></i> 120
+                                        </li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i>
+                                            5.0</li>
+                                    </ul>
+                                </div>
+                                <!-- price and action CTA -->
+                                <div class="tution-price-cta">
+                                    <p>₹7,999</p>
+                                    <a href="">
+                                        <button>Enroll</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- start: tution single card image  -->
+                        <div class="tuition-card">
+                            <!-- image: box amd image -->
+                            <div class="tuition-image-holder">
+                                <img src="images/tution-card-1.jpg" alt="">
+                                <!-- lable -->
+                                <div class="tution-card-lable">
+                                    <span>Live</span>
+                                </div>
+                            </div>
+                            <!-- details in card of the tution -->
+                            <div class="tuition-card-details">
+                                <h3>CBSE Class 10</h3>
+                                <h3>Mathematics</h3>
+                                <p><i class="fa fa-user" aria-hidden="true"></i>
+                                    Dr. Rajesh Kumar</p>
+                                <!-- rating and buy count -->
+                                <div class="tution-card-rating">
+                                    <ul>
+                                        <li><i class="fa fa-book" aria-hidden="true"></i> 120
+                                        </li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i>
+                                            5.0</li>
+                                    </ul>
+                                </div>
+                                <!-- price and action CTA -->
+                                <div class="tution-price-cta">
+                                    <p>₹7,999</p>
+                                    <a href="">
+                                        <button>Enroll</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- start: tution single card image  -->
+                        <div class="tuition-card">
+                            <!-- image: box amd image -->
+                            <div class="tuition-image-holder">
+                                <img src="images/tution-card-1.jpg" alt="">
+                                <!-- lable -->
+                                <div class="tution-card-lable">
+                                    <span>Live</span>
+                                </div>
+                            </div>
+                            <!-- details in card of the tution -->
+                            <div class="tuition-card-details">
+                                <h3>CBSE Class 10</h3>
+                                <h3>Mathematics</h3>
+                                <p><i class="fa fa-user" aria-hidden="true"></i>
+                                    Dr. Rajesh Kumar</p>
+                                <!-- rating and buy count -->
+                                <div class="tution-card-rating">
+                                    <ul>
+                                        <li><i class="fa fa-book" aria-hidden="true"></i> 120
+                                        </li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i>
+                                            5.0</li>
+                                    </ul>
+                                </div>
+                                <!-- price and action CTA -->
+                                <div class="tution-price-cta">
+                                    <p>₹7,999</p>
+                                    <a href="">
+                                        <button>Enroll</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- start: tution single card image  -->
+                        <div class="tuition-card">
+                            <!-- image: box amd image -->
+                            <div class="tuition-image-holder">
+                                <img src="images/tution-card-1.jpg" alt="">
+                                <!-- lable -->
+                                <div class="tution-card-lable">
+                                    <span>Live</span>
+                                </div>
+                            </div>
+                            <!-- details in card of the tution -->
+                            <div class="tuition-card-details">
+                                <h3>CBSE Class 10</h3>
+                                <h3>Mathematics</h3>
+                                <p><i class="fa fa-user" aria-hidden="true"></i>
+                                    Dr. Rajesh Kumar</p>
+                                <!-- rating and buy count -->
+                                <div class="tution-card-rating">
+                                    <ul>
+                                        <li><i class="fa fa-book" aria-hidden="true"></i> 120
+                                        </li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i>
+                                            5.0</li>
+                                    </ul>
+                                </div>
+                                <!-- price and action CTA -->
+                                <div class="tution-price-cta">
+                                    <p>₹7,999</p>
+                                    <a href="">
+                                        <button>Enroll</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- start: tution single card image  -->
+                        <div class="tuition-card">
+                            <!-- image: box amd image -->
+                            <div class="tuition-image-holder">
+                                <img src="images/tution-card-1.jpg" alt="">
+                                <!-- lable -->
+                                <div class="tution-card-lable">
+                                    <span>Live</span>
+                                </div>
+                            </div>
+                            <!-- details in card of the tution -->
+                            <div class="tuition-card-details">
+                                <h3>CBSE Class 10</h3>
+                                <h3>Mathematics</h3>
+                                <p><i class="fa fa-user" aria-hidden="true"></i>
+                                    Dr. Rajesh Kumar</p>
+                                <!-- rating and buy count -->
+                                <div class="tution-card-rating">
+                                    <ul>
+                                        <li><i class="fa fa-book" aria-hidden="true"></i> 120
+                                        </li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i>
+                                            5.0</li>
+                                    </ul>
+                                </div>
+                                <!-- price and action CTA -->
+                                <div class="tution-price-cta">
+                                    <p>₹7,999</p>
+                                    <a href="">
+                                        <button>Enroll</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- start: tution single card image  -->
+                        <div class="tuition-card">
+                            <!-- image: box amd image -->
+                            <div class="tuition-image-holder">
+                                <img src="images/tution-card-1.jpg" alt="">
+                                <!-- lable -->
+                                <div class="tution-card-lable">
+                                    <span>Live</span>
+                                </div>
+                            </div>
+                            <!-- details in card of the tution -->
+                            <div class="tuition-card-details">
+                                <h3>CBSE Class 10</h3>
+                                <h3>Mathematics</h3>
+                                <p><i class="fa fa-user" aria-hidden="true"></i>
+                                    Dr. Rajesh Kumar</p>
+                                <!-- rating and buy count -->
+                                <div class="tution-card-rating">
+                                    <ul>
+                                        <li><i class="fa fa-book" aria-hidden="true"></i> 120
+                                        </li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i>
+                                            5.0</li>
+                                    </ul>
+                                </div>
+                                <!-- price and action CTA -->
+                                <div class="tution-price-cta">
+                                    <p>₹7,999</p>
+                                    <a href="">
+                                        <button>Enroll</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- start: tution single card image  -->
+                        <div class="tuition-card">
+                            <!-- image: box amd image -->
+                            <div class="tuition-image-holder">
+                                <img src="images/tution-card-1.jpg" alt="">
+                                <!-- lable -->
+                                <div class="tution-card-lable">
+                                    <span>Live</span>
+                                </div>
+                            </div>
+                            <!-- details in card of the tution -->
+                            <div class="tuition-card-details">
+                                <h3>CBSE Class 10</h3>
+                                <h3>Mathematics</h3>
+                                <p><i class="fa fa-user" aria-hidden="true"></i>
+                                    Dr. Rajesh Kumar</p>
+                                <!-- rating and buy count -->
+                                <div class="tution-card-rating">
+                                    <ul>
+                                        <li><i class="fa fa-book" aria-hidden="true"></i> 120
+                                        </li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i>
+                                            5.0</li>
+                                    </ul>
+                                </div>
+                                <!-- price and action CTA -->
+                                <div class="tution-price-cta">
+                                    <p>₹7,999</p>
+                                    <a href="">
+                                        <button>Enroll</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- start: tution single card image  -->
+                        <div class="tuition-card">
+                            <!-- image: box amd image -->
+                            <div class="tuition-image-holder">
+                                <img src="images/tution-card-1.jpg" alt="">
+                                <!-- lable -->
+                                <div class="tution-card-lable">
+                                    <span>Live</span>
+                                </div>
+                            </div>
+                            <!-- details in card of the tution -->
+                            <div class="tuition-card-details">
+                                <h3>CBSE Class 10</h3>
+                                <h3>Mathematics</h3>
+                                <p><i class="fa fa-user" aria-hidden="true"></i>
+                                    Dr. Rajesh Kumar</p>
+                                <!-- rating and buy count -->
+                                <div class="tution-card-rating">
+                                    <ul>
+                                        <li><i class="fa fa-book" aria-hidden="true"></i> 120
+                                        </li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i>
+                                            5.0</li>
+                                    </ul>
+                                </div>
+                                <!-- price and action CTA -->
+                                <div class="tution-price-cta">
+                                    <p>₹7,999</p>
+                                    <a href="">
+                                        <button>Enroll</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- start: tution single card image  -->
+                        <div class="tuition-card">
+                            <!-- image: box amd image -->
+                            <div class="tuition-image-holder">
+                                <img src="images/tution-card-1.jpg" alt="">
+                                <!-- lable -->
+                                <div class="tution-card-lable">
+                                    <span>Live</span>
+                                </div>
+                            </div>
+                            <!-- details in card of the tution -->
+                            <div class="tuition-card-details">
+                                <h3>CBSE Class 10</h3>
+                                <h3>Mathematics</h3>
+                                <p><i class="fa fa-user" aria-hidden="true"></i>
+                                    Dr. Rajesh Kumar</p>
+                                <!-- rating and buy count -->
+                                <div class="tution-card-rating">
+                                    <ul>
+                                        <li><i class="fa fa-book" aria-hidden="true"></i> 120
+                                        </li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i>
+                                            5.0</li>
+                                    </ul>
+                                </div>
+                                <!-- price and action CTA -->
+                                <div class="tution-price-cta">
+                                    <p>₹7,999</p>
+                                    <a href="">
+                                        <button>Enroll</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- start: tution single card image  -->
+                        <div class="tuition-card">
+                            <!-- image: box amd image -->
+                            <div class="tuition-image-holder">
+                                <img src="images/tution-card-1.jpg" alt="">
+                                <!-- lable -->
+                                <div class="tution-card-lable">
+                                    <span>Live</span>
+                                </div>
+                            </div>
+                            <!-- details in card of the tution -->
+                            <div class="tuition-card-details">
+                                <h3>CBSE Class 10</h3>
+                                <h3>Mathematics</h3>
+                                <p><i class="fa fa-user" aria-hidden="true"></i>
+                                    Dr. Rajesh Kumar</p>
+                                <!-- rating and buy count -->
+                                <div class="tution-card-rating">
+                                    <ul>
+                                        <li><i class="fa fa-book" aria-hidden="true"></i> 120
+                                        </li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i>
+                                            5.0</li>
+                                    </ul>
+                                </div>
+                                <!-- price and action CTA -->
+                                <div class="tution-price-cta">
+                                    <p>₹7,999</p>
+                                    <a href="">
+                                        <button>Enroll</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- start: tution single card image  -->
+                        <div class="tuition-card">
+                            <!-- image: box amd image -->
+                            <div class="tuition-image-holder">
+                                <img src="images/tution-card-1.jpg" alt="">
+                                <!-- lable -->
+                                <div class="tution-card-lable">
+                                    <span>Live</span>
+                                </div>
+                            </div>
+                            <!-- details in card of the tution -->
+                            <div class="tuition-card-details">
+                                <h3>CBSE Class 10</h3>
+                                <h3>Mathematics</h3>
+                                <p><i class="fa fa-user" aria-hidden="true"></i>
+                                    Dr. Rajesh Kumar</p>
+                                <!-- rating and buy count -->
+                                <div class="tution-card-rating">
+                                    <ul>
+                                        <li><i class="fa fa-book" aria-hidden="true"></i> 120
+                                        </li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i>
+                                            5.0</li>
+                                    </ul>
+                                </div>
+                                <!-- price and action CTA -->
+                                <div class="tution-price-cta">
+                                    <p>₹7,999</p>
+                                    <a href="">
+                                        <button>Enroll</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- start: tution single card image  -->
+                        <div class="tuition-card">
+                            <!-- image: box amd image -->
+                            <div class="tuition-image-holder">
+                                <img src="images/tution-card-1.jpg" alt="">
+                                <!-- lable -->
+                                <div class="tution-card-lable">
+                                    <span>Live</span>
+                                </div>
+                            </div>
+                            <!-- details in card of the tution -->
+                            <div class="tuition-card-details">
+                                <h3>CBSE Class 10</h3>
+                                <h3>Mathematics</h3>
+                                <p><i class="fa fa-user" aria-hidden="true"></i>
+                                    Dr. Rajesh Kumar</p>
+                                <!-- rating and buy count -->
+                                <div class="tution-card-rating">
+                                    <ul>
+                                        <li><i class="fa fa-book" aria-hidden="true"></i> 120
+                                        </li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i>
+                                            5.0</li>
+                                    </ul>
+                                </div>
+                                <!-- price and action CTA -->
+                                <div class="tution-price-cta">
+                                    <p>₹7,999</p>
+                                    <a href="">
+                                        <button>Enroll</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- start: tution single card image  -->
+                        <div class="tuition-card">
+                            <!-- image: box amd image -->
+                            <div class="tuition-image-holder">
+                                <img src="images/tution-card-1.jpg" alt="">
+                                <!-- lable -->
+                                <div class="tution-card-lable">
+                                    <span>Live</span>
+                                </div>
+                            </div>
+                            <!-- details in card of the tution -->
+                            <div class="tuition-card-details">
+                                <h3>CBSE Class 10</h3>
+                                <h3>Mathematics</h3>
+                                <p><i class="fa fa-user" aria-hidden="true"></i>
+                                    Dr. Rajesh Kumar</p>
+                                <!-- rating and buy count -->
+                                <div class="tution-card-rating">
+                                    <ul>
+                                        <li><i class="fa fa-book" aria-hidden="true"></i> 120
+                                        </li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i>
+                                            5.0</li>
+                                    </ul>
+                                </div>
+                                <!-- price and action CTA -->
+                                <div class="tution-price-cta">
+                                    <p>₹7,999</p>
+                                    <a href="">
+                                        <button>Enroll</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- start: tution single card image  -->
+                        <div class="tuition-card">
+                            <!-- image: box amd image -->
+                            <div class="tuition-image-holder">
+                                <img src="images/tution-card-1.jpg" alt="">
+                                <!-- lable -->
+                                <div class="tution-card-lable">
+                                    <span>Live</span>
+                                </div>
+                            </div>
+                            <!-- details in card of the tution -->
+                            <div class="tuition-card-details">
+                                <h3>CBSE Class 10</h3>
+                                <h3>Mathematics</h3>
+                                <p><i class="fa fa-user" aria-hidden="true"></i>
+                                    Dr. Rajesh Kumar</p>
+                                <!-- rating and buy count -->
+                                <div class="tution-card-rating">
+                                    <ul>
+                                        <li><i class="fa fa-book" aria-hidden="true"></i> 120
+                                        </li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i>
+                                            5.0</li>
+                                    </ul>
+                                </div>
+                                <!-- price and action CTA -->
+                                <div class="tution-price-cta">
+                                    <p>₹7,999</p>
+                                    <a href="">
+                                        <button>Enroll</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- start: tution single card image  -->
+                        <div class="tuition-card">
+                            <!-- image: box amd image -->
+                            <div class="tuition-image-holder">
+                                <img src="images/tution-card-1.jpg" alt="">
+                                <!-- lable -->
+                                <div class="tution-card-lable">
+                                    <span>Live</span>
+                                </div>
+                            </div>
+                            <!-- details in card of the tution -->
+                            <div class="tuition-card-details">
+                                <h3>CBSE Class 10</h3>
+                                <h3>Mathematics</h3>
+                                <p><i class="fa fa-user" aria-hidden="true"></i>
+                                    Dr. Rajesh Kumar</p>
+                                <!-- rating and buy count -->
+                                <div class="tution-card-rating">
+                                    <ul>
+                                        <li><i class="fa fa-book" aria-hidden="true"></i> 120
+                                        </li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i>
+                                            5.0</li>
+                                    </ul>
+                                </div>
+                                <!-- price and action CTA -->
+                                <div class="tution-price-cta">
+                                    <p>₹7,999</p>
+                                    <a href="">
+                                        <button>Enroll</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- start: tution single card image  -->
+                        <div class="tuition-card">
+                            <!-- image: box amd image -->
+                            <div class="tuition-image-holder">
+                                <img src="images/tution-card-1.jpg" alt="">
+                                <!-- lable -->
+                                <div class="tution-card-lable">
+                                    <span>Live</span>
+                                </div>
+                            </div>
+                            <!-- details in card of the tution -->
+                            <div class="tuition-card-details">
+                                <h3>CBSE Class 10</h3>
+                                <h3>Mathematics</h3>
+                                <p><i class="fa fa-user" aria-hidden="true"></i>
+                                    Dr. Rajesh Kumar</p>
+                                <!-- rating and buy count -->
+                                <div class="tution-card-rating">
+                                    <ul>
+                                        <li><i class="fa fa-book" aria-hidden="true"></i> 120
+                                        </li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i>
+                                            5.0</li>
+                                    </ul>
+                                </div>
+                                <!-- price and action CTA -->
+                                <div class="tution-price-cta">
+                                    <p>₹7,999</p>
+                                    <a href="">
+                                        <button>Enroll</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- start: tution single card image  -->
+                        <div class="tuition-card">
+                            <!-- image: box amd image -->
+                            <div class="tuition-image-holder">
+                                <img src="images/tution-card-1.jpg" alt="">
+                                <!-- lable -->
+                                <div class="tution-card-lable">
+                                    <span>Live</span>
+                                </div>
+                            </div>
+                            <!-- details in card of the tution -->
+                            <div class="tuition-card-details">
+                                <h3>CBSE Class 10</h3>
+                                <h3>Mathematics</h3>
+                                <p><i class="fa fa-user" aria-hidden="true"></i>
+                                    Dr. Rajesh Kumar</p>
+                                <!-- rating and buy count -->
+                                <div class="tution-card-rating">
+                                    <ul>
+                                        <li><i class="fa fa-book" aria-hidden="true"></i> 120
+                                        </li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i>
+                                            5.0</li>
+                                    </ul>
+                                </div>
+                                <!-- price and action CTA -->
+                                <div class="tution-price-cta">
+                                    <p>₹7,999</p>
+                                    <a href="">
+                                        <button>Enroll</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- start: tution single card image  -->
+                        <div class="tuition-card">
+                            <!-- image: box amd image -->
+                            <div class="tuition-image-holder">
+                                <img src="images/tution-card-1.jpg" alt="">
+                                <!-- lable -->
+                                <div class="tution-card-lable">
+                                    <span>Live</span>
+                                </div>
+                            </div>
+                            <!-- details in card of the tution -->
+                            <div class="tuition-card-details">
+                                <h3>CBSE Class 10</h3>
+                                <h3>Mathematics</h3>
+                                <p><i class="fa fa-user" aria-hidden="true"></i>
+                                    Dr. Rajesh Kumar</p>
+                                <!-- rating and buy count -->
+                                <div class="tution-card-rating">
+                                    <ul>
+                                        <li><i class="fa fa-book" aria-hidden="true"></i> 120
+                                        </li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i>
+                                            5.0</li>
+                                    </ul>
+                                </div>
+                                <!-- price and action CTA -->
+                                <div class="tution-price-cta">
+                                    <p>₹7,999</p>
+                                    <a href="">
+                                        <button>Enroll</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- start: tution single card image  -->
+                        <div class="tuition-card">
+                            <!-- image: box amd image -->
+                            <div class="tuition-image-holder">
+                                <img src="images/tution-card-1.jpg" alt="">
+                                <!-- lable -->
+                                <div class="tution-card-lable">
+                                    <span>Live</span>
+                                </div>
+                            </div>
+                            <!-- details in card of the tution -->
+                            <div class="tuition-card-details">
+                                <h3>CBSE Class 10</h3>
+                                <h3>Mathematics</h3>
+                                <p><i class="fa fa-user" aria-hidden="true"></i>
+                                    Dr. Rajesh Kumar</p>
+                                <!-- rating and buy count -->
+                                <div class="tution-card-rating">
+                                    <ul>
+                                        <li><i class="fa fa-book" aria-hidden="true"></i> 120
+                                        </li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i>
+                                            5.0</li>
+                                    </ul>
+                                </div>
+                                <!-- price and action CTA -->
+                                <div class="tution-price-cta">
+                                    <p>₹7,999</p>
+                                    <a href="">
+                                        <button>Enroll</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- start: tution single card image  -->
+                        <div class="tuition-card">
+                            <!-- image: box amd image -->
+                            <div class="tuition-image-holder">
+                                <img src="images/tution-card-1.jpg" alt="">
+                                <!-- lable -->
+                                <div class="tution-card-lable">
+                                    <span>Live</span>
+                                </div>
+                            </div>
+                            <!-- details in card of the tution -->
+                            <div class="tuition-card-details">
+                                <h3>CBSE Class 10</h3>
+                                <h3>Mathematics</h3>
+                                <p><i class="fa fa-user" aria-hidden="true"></i>
+                                    Dr. Rajesh Kumar</p>
+                                <!-- rating and buy count -->
+                                <div class="tution-card-rating">
+                                    <ul>
+                                        <li><i class="fa fa-book" aria-hidden="true"></i> 120
+                                        </li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i>
+                                            5.0</li>
+                                    </ul>
+                                </div>
+                                <!-- price and action CTA -->
+                                <div class="tution-price-cta">
+                                    <p>₹7,999</p>
+                                    <a href="">
+                                        <button>Enroll</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- start: tution single card image  -->
+                        <div class="tuition-card">
+                            <!-- image: box amd image -->
+                            <div class="tuition-image-holder">
+                                <img src="images/tution-card-1.jpg" alt="">
+                                <!-- lable -->
+                                <div class="tution-card-lable">
+                                    <span>Live</span>
+                                </div>
+                            </div>
+                            <!-- details in card of the tution -->
+                            <div class="tuition-card-details">
+                                <h3>CBSE Class 10</h3>
+                                <h3>Mathematics</h3>
+                                <p><i class="fa fa-user" aria-hidden="true"></i>
+                                    Dr. Rajesh Kumar</p>
+                                <!-- rating and buy count -->
+                                <div class="tution-card-rating">
+                                    <ul>
+                                        <li><i class="fa fa-book" aria-hidden="true"></i> 120
+                                        </li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i>
+                                            5.0</li>
+                                    </ul>
+                                </div>
+                                <!-- price and action CTA -->
+                                <div class="tution-price-cta">
+                                    <p>₹7,999</p>
+                                    <a href="">
+                                        <button>Enroll</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- start: tution single card image  -->
+                        <div class="tuition-card">
+                            <!-- image: box amd image -->
+                            <div class="tuition-image-holder">
+                                <img src="images/tution-card-1.jpg" alt="">
+                                <!-- lable -->
+                                <div class="tution-card-lable">
+                                    <span>Live</span>
+                                </div>
+                            </div>
+                            <!-- details in card of the tution -->
+                            <div class="tuition-card-details">
+                                <h3>CBSE Class 10</h3>
+                                <h3>Mathematics</h3>
+                                <p><i class="fa fa-user" aria-hidden="true"></i>
+                                    Dr. Rajesh Kumar</p>
+                                <!-- rating and buy count -->
+                                <div class="tution-card-rating">
+                                    <ul>
+                                        <li><i class="fa fa-book" aria-hidden="true"></i> 120
+                                        </li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i>
+                                            5.0</li>
+                                    </ul>
+                                </div>
+                                <!-- price and action CTA -->
+                                <div class="tution-price-cta">
+                                    <p>₹7,999</p>
+                                    <a href="">
+                                        <button>Enroll</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- start: tution single card image  -->
+                        <div class="tuition-card">
+                            <!-- image: box amd image -->
+                            <div class="tuition-image-holder">
+                                <img src="images/tution-card-1.jpg" alt="">
+                                <!-- lable -->
+                                <div class="tution-card-lable">
+                                    <span>Live</span>
+                                </div>
+                            </div>
+                            <!-- details in card of the tution -->
+                            <div class="tuition-card-details">
+                                <h3>CBSE Class 10</h3>
+                                <h3>Mathematics</h3>
+                                <p><i class="fa fa-user" aria-hidden="true"></i>
+                                    Dr. Rajesh Kumar</p>
+                                <!-- rating and buy count -->
+                                <div class="tution-card-rating">
+                                    <ul>
+                                        <li><i class="fa fa-book" aria-hidden="true"></i> 120
+                                        </li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i>
+                                            5.0</li>
+                                    </ul>
+                                </div>
+                                <!-- price and action CTA -->
+                                <div class="tution-price-cta">
+                                    <p>₹7,999</p>
+                                    <a href="">
+                                        <button>Enroll</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- start: tution single card image  -->
+                        <div class="tuition-card">
+                            <!-- image: box amd image -->
+                            <div class="tuition-image-holder">
+                                <img src="images/tution-card-1.jpg" alt="">
+                                <!-- lable -->
+                                <div class="tution-card-lable">
+                                    <span>Live</span>
+                                </div>
+                            </div>
+                            <!-- details in card of the tution -->
+                            <div class="tuition-card-details">
+                                <h3>CBSE Class 10</h3>
+                                <h3>Mathematics</h3>
+                                <p><i class="fa fa-user" aria-hidden="true"></i>
+                                    Dr. Rajesh Kumar</p>
+                                <!-- rating and buy count -->
+                                <div class="tution-card-rating">
+                                    <ul>
+                                        <li><i class="fa fa-book" aria-hidden="true"></i> 120
+                                        </li>
+                                        <li><i class="fa fa-star" aria-hidden="true"></i>
+                                            5.0</li>
+                                    </ul>
+                                </div>
+                                <!-- price and action CTA -->
+                                <div class="tution-price-cta">
+                                    <p>₹7,999</p>
+                                    <a href="">
+                                        <button>Enroll</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer>
+        <div class="footer-main">
+            <!-- about and social media -->
+            <div class="footer-about">
+                <h2>THE -4</h2>
+                <p>Empowering students with quality education and comprehensive preparation for competitive exams.</p>
+                <!-- social media icon -->
+                <div class="footer-icon">
+                    <a href="https://www.facebook.com" target="_blank">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com" target="_blank">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+
+                    <a href="https://www.twitter.com" target="_blank">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+
+                    <a href="https://www.youtube.com" target="_blank">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- Quick Links -->
+            <div class="footer-links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Admission Process</a></li>
+                    <li><a href="">Events</a></li>
+                    <li><a href="">Gallery</a></li>
+                    <li><a href="">Blog</a></li>
+                </ul>
+            </div>
+            <!-- Popular Courses -->
+            <div class="footer-links">
+                <h2>Popular Courses</h2>
+                <ul>
+                    <li><a href="">CET Preparation</a></li>
+                    <li><a href="">Banking Exams</a></li>
+                    <li><a href="">SSC Preparation</a></li>
+                    <li><a href="">Insurance Exams</a></li>
+                    <li><a href="">Test Series</a></li>
+                </ul>
+            </div>
+            <!-- contact us -->
+            <div class="contact">
+                <h2>Contact Us</h2>
+                <ul>
+                    <li>
+                        <a href="https://maps.app.goo.gl/xvbw3k2EMGAEDeRY8" target="_blank">
+                            <i class="fa-solid fa-location-dot"></i> 21, Ramakrishna Lane, Kolkata, IN</a>
+                    </li>
+                    <li>
+                        <a href="tel:+917234343432">
+                            <i class="fa-solid fa-phone"></i> +91723434343</a>
+                    </li>
+                    <li>
+                        <a href="mailto:info@4education.com">
+                            <i class="fa-solid fa-envelope"></i> info@4education.com</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

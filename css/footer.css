@@ -4,7 +4,7 @@ footer {
     padding: 50px 15px;
     background-color: var(--cr-b);
     color: var(--cr-p);
-    border-top: 1px solid var(--cr-p);
+    border-top: 1px solid rgba(189, 124, 156, 0.139);
 }
 
 .footer-main {

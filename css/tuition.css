@@ -1,0 +1,281 @@
+.hero-search {
+    padding: 50px 0px;
+    width: 1100px;
+    text-align: center;
+}
+
+.hero-search>h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--cr-p);
+    margin-bottom: 10px;
+}
+
+.hero-search>p {
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--cr-p);
+    margin-bottom: 50px;
+}
+
+.saerch-container {
+    display: inline-block;
+}
+
+.saerch-input {
+    display: flex;
+    column-gap: 15px;
+    justify-content: center;
+}
+
+.saerch-input input {
+    width: 600px;
+    height: 50px;
+    padding: 6px 12px;
+    font-size: 18px;
+    font-weight: 400;
+    border: 3px solid var(--cr-s);
+    border-radius: 7px;
+}
+
+.saerch-input input:focus {
+    outline: none;
+}
+
+.saerch-input button {
+    padding: 10px 35px;
+    font-size: 18px;
+    border: none;
+    border-radius: 7px;
+    background-color: var(--cr-s);
+    color: var(--cr-b);
+}
+
+.saerch-input button:hover {
+    background-color: var(--cr-p);
+    cursor: pointer;
+}
+
+.saerch-input button i {
+    margin-right: 20px;
+
+}
+
+.search-suggetion {
+    margin-top: 35px;
+    padding-left: 15px;
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
+}
+
+.search-suggetion p {
+    padding: 15px 30px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 30px;
+    color: var(--cr-s);
+}
+
+.search-suggetion p:hover {
+    border: 1px solid rgba(0, 0, 0, 0);
+    background-color: var(--cr-s);
+    color: var(--cr-b);
+    cursor: pointer;
+}
+
+.main-listing-container {
+    width: 1400px;
+    display: flex;
+    padding-bottom: 30px;
+}
+
+/* sidebar */
+
+.lising-sidebar {
+    position: sticky;
+    top: 65px;
+    width: 300px;
+    min-width: 300px;
+    max-height: 861px;
+}
+
+.option-title {
+    color: var(--cr-s);
+    font-size: 19px;
+    font-weight: 500;
+    padding-bottom: 6px;
+    margin: 18px 0 15px 0;
+    border-bottom: 1px solid var(--cr-s);
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    accent-color: var(--cr-s);
+    /* color when checked */
+    width: 14px;
+    height: 14px;
+    margin: 7px 5px;
+}
+
+input[type="range"] {
+    width: 100%;
+    accent-color: var(--cr-s);
+    margin-top: 10px;
+
+}
+
+.range-output {
+    color: var(--cr-s);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.range-output::before {
+    content: "₹";
+    color: var(--cr-s);
+
+
+}
+
+.checkbox-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* listing */
+.card-listing {
+    width: calc(100% - 300px);
+    display: flex;
+    justify-content: center;
+}
+
+.card-grid-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    justify-content: center;
+}
+
+
+/* tution card */
+.tuition-card {
+    border: 1px solid rgba(170, 75, 143, 0.363);
+    width: 300px;
+    height: 310px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+/* tution card image  */
+.tuition-image-holder {
+    width: 100%;
+    height: 162px;
+    position: relative;
+
+}
+
+/* if image  */
+.tuition-image-holder img {
+    width: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+/* if video  */
+.tuition-image-holder video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* card lable */
+.tution-card-lable {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.tution-card-lable span {
+    padding: 2px 12px 3px 12px;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: var(--cr-s);
+    color: var(--cr-b);
+    border-radius: 25px;
+}
+
+/* tution card text details */
+.tuition-card-details {
+    padding: 10px;
+}
+
+.tuition-card-details h3 {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.tuition-card-details h3:last-of-type {
+    color: var(--cr-s);
+    margin-bottom: 6px;
+}
+
+/* text decotation teacher mane and icon */
+.tuition-card-details p {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    color: rgba(10, 57, 1, 0.9);
+}
+
+.tuition-card-details p i,
+.tution-card-rating ul li i {
+    color: var(--cr-s) !important;
+    font-size: 12px;
+    font-weight: 600;
+    padding-right: 5px;
+}
+
+/* tution-card-rating */
+.tution-card-rating {
+    margin-top: 6px;
+}
+
+.tution-card-rating ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+}
+
+.tution-card-rating ul li {
+    font-size: 12px;
+    font-weight: 400;
+
+}
+
+
+/* action: price and action CTA  */
+.tution-price-cta {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tution-price-cta p {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--cr-s);
+}
+
+.tution-price-cta a button {
+    padding: 5px 15px;
+    border: none;
+    background-color: var(--cr-s);
+    color: var(--cr-b);
+    border-radius: 3px;
+}
